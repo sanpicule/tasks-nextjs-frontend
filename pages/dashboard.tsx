@@ -8,7 +8,7 @@ import { useQueryClient } from '@tanstack/react-query'
 import TaskForm from '@/components/TaskForm'
 import { TaskList } from '@/components/TaskList'
 
-const dashboard = () => {
+const Dashboard = () => {
   const router = useRouter()
   const queryClient = useQueryClient()
   const logout = async () => {
@@ -30,4 +30,4 @@ const dashboard = () => {
   )
 }
 
-export default dashboard
+export default Dashboard
